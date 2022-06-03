@@ -31,23 +31,24 @@
 
     <div class="header">
 
-      <a href="index.html" class="header__logo">
-        <img class="img-res" src="img/logo.png" alt="">
-      </a>
-
       <ul class="header__menu">
+        <div class="header__logo">
+          <a href="index.html" class="text-upper text-3">Luigi lesca</a>
+        </div>
 
-
-        <!-- <li><a href="#chi-sono">Chi sono</a></li> -->
-        <li><a href="#cosa-faccio">Cosa faccio</a></li>
-        <li><a href="#lavori">Portfolio</a></li>
-        <li><a href="#contatti">Contatti</a></li>
-
+        <div class="header__menu__link text-4">
+          <li><a href="#chi-sono">Chi sono</a></li>
+          <li><a href="#cosa-faccio">Cosa faccio</a></li>
+          <li><a href="#lavori">Portfolio</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </div>
       </ul>
 
       <div class="header__hamburger">
-        <span></span>
-        <span></span>
+        <div class="header__hamburger__span">
+          <span></span>
+          <span></span>
+        </div>
       </div>
 
     </div>
@@ -137,84 +138,77 @@
     </div>
 
 
-
-
-
-
-
     <!-- Slider -->
 
     <div class="bg-black pt-3 " id="lavori">
 
-      <h3 class="text-1 text-center mt-3">Punti chiave</h3>
+      <h3 class="text-1 text-center text-white mt-3">Progetti</h3>
 
       <section class="splide" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
           <ul class="splide__list">
             <li class="splide__slide">
-              <div class="tiles fade-up"
-                style="background: url(img/3.jpg) no-repeat center center; background-size:cover">
+              <a href="react-project.html" target="_blank" class="tiles fade-up"
+                style="background: url(img/covid-cover.jpg) no-repeat center center; background-size:cover">
                 <div class="tiles__content">
-                  <h3 class="mb-0">Tiolo della tiles</h3>
-                  <p>Sottotitolo della tiles</p>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="tiles fade-up"
-                style="background: url(img/4.jpeg) no-repeat center center; background-size:cover">
-                <div class="tiles__content">
-                  <h3 class="mb-0">Tiolo della tiles</h3>
-                  <p>Sottotitolo della tiles</p>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="tiles fade-up"
-                style="background: url(img/5.jpg) no-repeat center center; background-size:cover">
-                <div class="tiles__content">
-                  <h3 class="mb-0">Tiolo della tiles</h3>
-                  <p>Sottotitolo della tiles</p>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="tiles" style="background: url(img/bridge.jpg) no-repeat center center; background-size:cover">
-                <div class="tiles__content">
-                  <h3 class="mb-0">Tiolo della tiles</h3>
-                  <p>Sottotitolo della tiles</p>
+                  <h3 class="mb-0 font-bold-6">React</h3>
+                  <p class="text-upper text-5">Covid-19 Dashboard </p>
                 </div>
 
                 <div class="tiles__label">
-                  Info aggiuntiva
+                  React - Scss - Axios
                 </div>
-              </div>
+              </a>
             </li>
             <li class="splide__slide">
-              <div class="tiles" style="background: url(img/bridge.jpg) no-repeat center center; background-size:cover">
+              <a href="react-redux-project.html" target="_blank" class="tiles fade-up"
+                style="background: url(img/food.jpg) no-repeat center center; background-size:cover">
                 <div class="tiles__content">
-                  <h3 class="mb-0">Tiolo della tiles</h3>
-                  <p>Sottotitolo della tiles</p>
+                  <h3 class="mb-0 font-bold-6">React Redux</h3>
+                  <p class="text-upper text-5">Food Vegan Recipe</p>
+                </div>
+
+                <div class="tiles__label">
+                  React - Axios - LocalStorage
+                </div>
+              </a>
+            </li>
+
+            <li class="splide__slide">
+              <a href="apple-project.html" class="tiles fade-up"
+                style="background: url(img/apple-cover.jpg) no-repeat center center; background-size:cover">
+                <div class="tiles__content">
+                  <h3 class="mb-0 font-bold-6">Apple Project</h3>
+                  <p class="text-upper text-5">Ipad landing page clone</p>
+                </div>
+
+                <div class="tiles__label">
+                  Gsap - Html - Css - JavaSscript
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="tesla-model-s-clone.html" class="tiles"
+                style="background: url(img/tesla.jpg) no-repeat center center; background-size:cover">
+                <div class="tiles__content">
+                  <h3 class="mb-0 font-bold-6">Tesla Project</h3>
+                  <p class="text-upper text-5">Model S3 landing page clone</p>
                 </div>
                 <div class="tiles__label">
-                  Info aggiuntiva
+                  Gsap - Html - Css - JavaScript
                 </div>
-              </div>
+              </a>
             </li>
           </ul>
         </div>
       </section>
 
 
-
-
-
-
-
+      <!-- Contatti -->
 
       <div class="grid text-center text-white pt-4 pb-4" id="contatti">
-        <div class="col-100">
-          <h3 class="text-0">Contattami</h3>
+        <div class="col-100 text-center">
+          <h3 class="text-2 text-upper text-center">Contattami</h3>
           <p class="tetx-3 mt-4">Se pensi che le mie capacità ti possano essere d'aiuto, allora
             <strong>contattami</strong>. <br><br>
             😀 Ti rispondo
@@ -223,7 +217,6 @@
           <a href="mailto: luigilesca@hotmail.it" class="button mt-3">Contattami ora</a>
 
           <div class="grid">
-
             <div class="col-50 mt-4 ">
               <div class="icon-grid">
                 <img class="icon-small" src="img/mail-outline.svg" alt="">
@@ -239,6 +232,7 @@
           </div>
         </div>
       </div>
+
     </div>
 
     <!--  Footer -->
