@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Food Recipe Project</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <!-- Css Style -->
+  <link rel="stylesheet" href="css/style.css">
+  <!--  Splide Css Style -->
+  <link rel="stylesheet" href="css/splide.min.css">
+
+
+</head>
+
+<body>
+
+  <div class="overflow">
+
+    <!-- Cursor -->
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <div class="header">
+
+      <a href="index.html" class="header__logo">
+        <img class="img-res" src="img/logo.png" alt="">
+      </a>
+
+      <ul class="header__menu">
+
+
+        <!-- <li><a href="#chi-sono">Chi sono</a></li> -->
+        <li><a href="#cosa-faccio">Cosa faccio</a></li>
+        <li><a href="#lavori">Portfolio</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+
+      </ul>
+
+      <div class="header__hamburger">
+        <span></span>
+        <span></span>
+      </div>
+
+    </div>
+
+    <progress class="progress-bar" max="100" value="0"></progress>
+
+
+    <!-- <div class="spacer"></div> -->
+
+
+    <div class="col-100">
+      <div class="cover__content">
+
+        <div class="back">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+          <a href="index.html">Torna alla Home</a>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="content-wrapper">
+          <h1 class="text-reveal text-center text-upper text-0">Progetto React Redux</h1>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <!-- Media Text -->
+    <div class="grid pb-4 pt-4 " id="cosa-faccio">
+      <div class="col-50 mt-0 fade-up">
+        <div class="p-3">
+          <h3 class="text-1">Obiettivi</h3>
+          <p class="text-4">L'obiettivo di questo progetto è quello di realizzare <strong>un'applicazione React</strong>
+            che permetta all'utente di effettuare una
+            ricerca di ricette vegetariane. </p>
+        </div>
+      </div>
+      <div class="col-50 slide-right">
+        <img src="img/foodApp_homepage.jpg" class="img-res" alt="">
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="col-50 slide-left slide-left-small">
+        <img src="img/recipe-iphone.jpg" class="img-res" alt="">
+      </div>
+      <div class="col-50 mt-4 fade-up">
+        <div class="p-3">
+
+          <h3 class="text-1">Metodo</h3>
+          <ul class="text-4">
+            <li>➡️ L'utente visualizza nella Homepage le ricette vegetariane più popolari. Le ricette vengono
+              visualizzate all'interno
+              delle "card", che contengono nome ricetta, immagine e un bottone con scritto "read recipe".</li> <br>
+            <li>➡️ L'utente può aggiungere le ricette che preferisce nella pagina dei preferiti.</li> <br>
+            <li>➡️ Per la realizzazione dell'applicazione ho utilizzato: <strong>React Redux Toolkit, CSS module,
+                LocalStorage,
+                Axios.</strong> </li> <br>
+            <li>➡️ Il sito è responsive e l'API utilizzata è quella di Spoonacular.</li> <br>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="grid mb-4 ">
+
+      <div class="col-50 skill-grid">
+        <div class="icon-grid">
+          <img class="icon-small" src="img/logo-github.svg" alt="">
+          <a href="https://github.com/luigilesca/foodApp_React_2022.git" target="_blank">Link per visionare il
+            codice</a>
+        </div>
+      </div>
+
+      <div class="col-50 skill-grid">
+        <div class="icon-grid">
+          <img class="icon-small" src="img/globalization.png" alt="">
+          <a href="https://food-app-react-2022.netlify.app" target="_blank">Link per navigare sul sito</a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Slider -->
+
+    <div class="bg-black pt-3 " id="lavori">
+
+      <h3 class="text-1 text-center mt-3">Punti chiave</h3>
+
+      <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="tiles fade-up"
+                style="background: url(img/3.jpg) no-repeat center center; background-size:cover">
+                <div class="tiles__content">
+                  <h3 class="mb-0">Tiolo della tiles</h3>
+                  <p>Sottotitolo della tiles</p>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="tiles fade-up"
+                style="background: url(img/4.jpeg) no-repeat center center; background-size:cover">
+                <div class="tiles__content">
+                  <h3 class="mb-0">Tiolo della tiles</h3>
+                  <p>Sottotitolo della tiles</p>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="tiles fade-up"
+                style="background: url(img/5.jpg) no-repeat center center; background-size:cover">
+                <div class="tiles__content">
+                  <h3 class="mb-0">Tiolo della tiles</h3>
+                  <p>Sottotitolo della tiles</p>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="tiles" style="background: url(img/bridge.jpg) no-repeat center center; background-size:cover">
+                <div class="tiles__content">
+                  <h3 class="mb-0">Tiolo della tiles</h3>
+                  <p>Sottotitolo della tiles</p>
+                </div>
+
+                <div class="tiles__label">
+                  Info aggiuntiva
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="tiles" style="background: url(img/bridge.jpg) no-repeat center center; background-size:cover">
+                <div class="tiles__content">
+                  <h3 class="mb-0">Tiolo della tiles</h3>
+                  <p>Sottotitolo della tiles</p>
+                </div>
+                <div class="tiles__label">
+                  Info aggiuntiva
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <div class="grid text-center text-white pt-4 pb-4" id="contatti">
+        <div class="col-100">
+          <h3 class="text-0">Contattami</h3>
+          <p class="tetx-3 mt-4">Se pensi che le mie capacità ti possano essere d'aiuto, allora
+            <strong>contattami</strong>. <br><br>
+            😀 Ti rispondo
+            entro 1 giorno.
+          </p>
+          <a href="mailto: luigilesca@hotmail.it" class="button mt-3">Contattami ora</a>
+
+          <div class="grid">
+
+            <div class="col-50 mt-4 ">
+              <div class="icon-grid">
+                <img class="icon-small" src="img/mail-outline.svg" alt="">
+                <a class="text-white" href="mailto: luigilesca@hotmail.it">E-mail</a>
+              </div>
+            </div>
+            <div class="col-50 mt-4 ">
+              <div class="icon-grid">
+                <img class="icon-small" src="img/logo-linkedin.svg" alt="">
+                <a class="text-white" href="https://www.linkedin.com/in/luigi-lesca/">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Footer -->
+    <div class="footer">
+      <div class="grid text-center">
+        <div class="col-100">
+          <h3 class="text-5 text-upper text-white">Made with ❤️ by Luigi Lesca</h3>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+
+  <!-- Splide JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/js/splide.min.js"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- MinMasonry -->
+  <!-- <script src="js/minimasonry.min.js"></script> -->
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
